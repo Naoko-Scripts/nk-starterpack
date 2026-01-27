@@ -1,3 +1,6 @@
+## ☕ Support
+If you find this project useful, consider supporting me on Ko-Fi.
+
 [![Ko-Fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naokoscripts)
 
 # NK-StarterPack 🎁
@@ -99,11 +102,6 @@ For bug reports or suggestions, please contact:
 
 ## 📜 License
 FREE RELEASE - Can be used for personal or server use.
-
-## Support & Donations
-If you like this script, consider supporting me on Ko-fi!  
-☕ Support me on Ko-Fi: https://ko-fi.com/naokoscripts
-
 
 ---
 **Enjoy! Don't forget to give credit if you share! 🚀**
