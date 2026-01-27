@@ -92,7 +92,7 @@ Config.UseBlip = true -- Enable/disable blip
 
 ## 🐛 Support
 For bug reports or suggestions, please contact:
-- **Author:** NK Scripts
+- **Author:** Naoko Scripts
 - **Version:** 1.0.0
 
 ## 📜 License
