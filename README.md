@@ -100,7 +100,7 @@ FREE RELEASE - Can be used for personal or server use.
 
 ## Support & Donations
 If you like this script, consider supporting me on Ko-fi!  
-☕ Support me on Ko-Fi:(https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naokoscripts)
+☕ Support me on Ko-Fi: https://ko-fi.com/naokoscripts
 
 
 ---
