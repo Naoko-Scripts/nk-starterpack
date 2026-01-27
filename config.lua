@@ -4,7 +4,7 @@ Config = {}
 Config.VersionCheck = true -- Enable/disable version check
 Config.ResourceName = "nk-starterpack" -- Nama resource
 Config.CurrentVersion = "1.0.0" -- Current version
-Config.GithubRepo = "nkscripts/nk-starterpack" -- Github repository (owner/repo)
+Config.GithubRepo = "Naoko-Scripts/nk-starterpack" -- Github repository (owner/repo)
 
 -- Ped Settings
 Config.PedModel = "a_m_m_tourist_01" -- Model ped
@@ -12,7 +12,7 @@ Config.PedCoords = vector4(-1040.53, -2731.88, 20.17, 240.80) -- Koordinat ped (
 Config.PedScenario = "WORLD_HUMAN_CLIPBOARD" -- Scenario ped
 
 -- Vehicle Settings
-Config.VehicleModel = "myvi" -- Model kereta yang akan diberi
+Config.VehicleModel = "futo" -- Model kereta yang akan diberi
 Config.VehicleSpawnCoords = vector4(-1033.46, -2730.69, 19.46, 239.32) -- Koordinat spawn kereta
 Config.PlatePrefix = "MC" -- Prefix untuk plate (MC XXXX)
 
@@ -51,3 +51,4 @@ Config.Blip = {
     scale = 0.7,
     label = "Starter Pack"
 }
+
