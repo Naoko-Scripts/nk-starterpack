@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'NK Scripts'
+author 'Naoko Scripts'
 description 'NK Starterpack - Free Release'
 version '1.0.0'
 
@@ -26,3 +26,4 @@ dependencies {
 }
 
 lua54 'yes'
+
