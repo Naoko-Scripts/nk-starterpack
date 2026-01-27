@@ -1,3 +1,18 @@
+[![Ko-Fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naokoscripts)
+
+# Naoko Simple Mechanic
+
+Beginner-friendly FiveM script for roleplay servers.
+
+## ✨ Features
+- Basic mechanic interaction
+- Simple configuration
+- Lightweight
+
+## ☕ Support
+If you find this project useful, your support on Ko-Fi helps me improve and continue developing more scripts.
+
+
 # NK-StarterPack 🎁
 
 **FREE RELEASE** - Starter pack script for QBCore Framework
