@@ -3,7 +3,7 @@
 **FREE RELEASE** - Starter pack script for QBCore Framework
 
 ## 📝 Description
-A script that allows new players to claim a free starter pack vehicle. The vehicle will automatically be added to the garage with a custom plate "MC XXXX".
+A script that allows new players to claim a free starter pack vehicle. The vehicle will automatically spawn with a custom plate.
 
 ## ✨ Features
 - ✅ Ped with scenario at configurable location
