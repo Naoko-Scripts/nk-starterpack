@@ -71,7 +71,7 @@ RegisterNetEvent('nk-starterpack:server:claimPack', function()
     -- Check if already claimed
     HasClaimedPack(citizenid, function(hasClaimed)
         if hasClaimed then
-            TriggerClientEvent('RxNotify:Notify', src, 'Starter Pack', Config.Notifications.alreadyClaimed, 'error')
+            TriggerClientEvent('QBCore:Notify', src, Config.Notifications.alreadyClaimed, 'error')
             return
         end
         
@@ -107,13 +107,13 @@ RegisterNetEvent('nk-starterpack:server:claimPack', function()
                 end
                 
                 -- Notify player
-                TriggerClientEvent('RxNotify:Notify', src, 'Starter Pack', Config.Notifications.claimSuccess, 'success')
+                TriggerClientEvent('QBCore:Notify', src, Config.Notifications.claimSuccess, 'success')
                 
                 -- Spawn vehicle
                 TriggerClientEvent('nk-starterpack:client:spawnVehicle', src, plate)
             else
                 -- If database insert failed
-                TriggerClientEvent('RxNotify:Notify', src, 'Error', "Gagal claim starter pack! Hubungi admin.", 'error')
+                TriggerClientEvent('QBCore:Notify', src, "Gagal claim starter pack! Hubungi admin.", 'error')
             end
         end)
         end)
@@ -126,7 +126,7 @@ QBCore.Commands.Add('resetstarterpack', 'Reset starter pack untuk player (Admin 
     local TargetPlayer = QBCore.Functions.GetPlayer(targetId)
     
     if not TargetPlayer then
-        TriggerClientEvent('RxNotify:Notify', source, 'Error', 'Player not found', 'error')
+        TriggerClientEvent('QBCore:Notify', source, 'Player not found', 'error')
         return
     end
     
@@ -135,10 +135,11 @@ QBCore.Commands.Add('resetstarterpack', 'Reset starter pack untuk player (Admin 
         Config.PlatePrefix .. '%'
     }, function(affectedRows)
         if affectedRows > 0 then
-            TriggerClientEvent('RxNotify:Notify', source, 'Success', 'Starter pack for player ' .. GetPlayerName(targetId) .. ' has been reset', 'success')
-            TriggerClientEvent('RxNotify:Notify', targetId, 'Info', 'Your starter pack has been reset by an admin', 'info')
+            TriggerClientEvent('QBCore:Notify', source, 'Starter pack for player ' .. GetPlayerName(targetId) .. ' has been reset', 'success')
+            TriggerClientEvent('QBCore:Notify', targetId, 'Your starter pack has been reset by an admin', 'inform')
         else
-            TriggerClientEvent('RxNotify:Notify', source, 'Error', 'Player does not have a starter pack', 'error')
+            TriggerClientEvent('QBCore:Notify', source, 'Player does not have a starter pack', 'error')
         end
     end)
 end, 'admin')
+
