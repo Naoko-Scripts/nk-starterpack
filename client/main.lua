@@ -63,7 +63,7 @@ RegisterNetEvent('nk-starterpack:client:spawnVehicle', function(plate)
     
     -- Check if spawn location is clear
     if IsAnyVehicleNearPoint(coords.x, coords.y, coords.z, 3.0) then
-        exports['RxNotify']:Notify('Error', Config.Notifications.spawnLocationBlocked, 'error')
+        QBCore.Functions.Notify(Config.Notifications.spawnLocationBlocked, 'error')
         return
     end
     
@@ -95,7 +95,7 @@ RegisterNetEvent('nk-starterpack:client:spawnVehicle', function(plate)
     TriggerEvent("vehiclekeys:client:SetOwner", plate)
     
     -- Notify vehicle spawned
-    exports['RxNotify']:Notify('Success', Config.Notifications.vehicleSpawned, 'success')
+    QBCore.Functions.Notify(Config.Notifications.vehicleSpawned, 'success')
 end)
 
 -- Initialize when resource starts
@@ -112,3 +112,4 @@ AddEventHandler('onResourceStop', function(resourceName)
         DeleteEntity(starterPed)
     end
 end)
+
